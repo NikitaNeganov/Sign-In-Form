@@ -1,0 +1,91 @@
+
+.container{
+    display: block;
+    text-align: center;
+    background-color: #6ED0F6;
+}
+.form1{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    
+}
+.header{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom:15px;
+    margin-top: 40px;
+    text-align: left;
+    font-size: 17px;
+}
+#arrow {
+    transition: all .5s cubic-bezier(.6,0,.4,1);
+    height: 0;
+    width: 0;
+    border-bottom: 7px solid #fff;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: relative;
+    left: 26px;
+  }
+.input{
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.input:focus{
+    outline: none;
+}
+.input::placeholder{
+    color: #dbdcdd;
+    
+}
+.h4{
+   color: white; 
+}
+.button{
+    font-family: 'Raleway', sans-serif;
+    background-color: #2997CE;
+    color: white;
+    border: none;
+   
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #0386b2;
+}
+@media screen and (max-width: 719px){
+    .button{
+        width: 112%;
+    }
+}
+@media screen and (min-width: 720px){
+    .button{
+        width: 103%;
+    }
+    
+}
+@media screen and (min-width: 940px){
+    .button{
+        width: 100%;
+    }
+    
+}
+@media screen and (min-width: 1440px){
+    .button{
+        width: 96%;
+    }
+    
+}
+

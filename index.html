@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Just A Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:500,700,800" rel="stylesheet">
+        
+    </head>
+    <body>
+    <div class="container">
+        <form class="form1">
+            <h4 class="header" style="color:white">SIGN IN</h4>
+            <div id="arrow"></div>
+            <input class="input" type="text" name="email" id="formEmail" placeholder="Email"><br>
+            <input class="input" type="password" name="password" id="formPassword" placeholder="Password"><br>
+            <button class="button" type="button" onclick="alert(this.form.email.value+':'+this.form.password.value)">Sign in</button>
+        </form>
+    </div>
+    </body>
+</html>
