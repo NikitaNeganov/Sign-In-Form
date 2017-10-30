@@ -21,13 +21,11 @@
 }
 #arrow {
     transition: all .5s cubic-bezier(.6,0,.4,1);
-    height: 0;
-    width: 0;
     border-bottom: 7px solid #fff;
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
     position: relative;
-    left: 26px;
+    left: -40px;
   }
 .input{
     font-size: 17px;
